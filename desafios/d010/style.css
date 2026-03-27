@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset  "UTF-8";
 @font-face {
     font-family: "idroid";
@@ -179,4 +180,187 @@ div.video iframe {
     left: 5%;
     width: 90%;
     height: 90%;
+=======
+@charset  "UTF-8";
+@font-face {
+    font-family: "idroid";
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format("opentype");
+}
+:root {
+    --cor0: #3AAED8;
+    --cor1: #28464B;
+    --cor2: #84E296;
+    --cor3:#5ca069;
+    --cor4:#72c481;
+
+    /* 
+    Tem como criar variaves de fontes como:
+    --fonte1: "idroid", sans-serif;
+    */
+}
+body {
+    background-color: var(--cor0);
+    margin: 0px;
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
+    color: white;
+    margin: 0px;
+}
+main {
+    background-color: white;
+    margin: 0px auto;
+    padding: 10px 10px;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor1);
+    background-color: var(--cor4);
+    padding: 2px 2px;
+}
+main a:hover {
+    background-color: var(--cor3);
+    color: var(--cor1);
+    transition-duration: 0.5s;
+    text-decoration: underline;
+}
+nav {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+}
+h3 {
+    font-weight: bold;
+    color: white;
+}
+h1 {
+    font-family: "idroid", sans-serif;
+}
+#titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding-top: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+}
+main h2 {
+    font-family: "idroid", sans-serif;
+    color: var(--cor0);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    padding: 5px;
+}
+.titulo {
+    color: var(--cor1);
+}
+.centro {
+    text-align: center;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+}
+a {
+    font-weight: bold;
+    color: var(--cor1);
+    text-decoration: none;
+}
+a.externo::after {
+    content: '\00A0\1F517';
+}
+nav >a {
+    color: var(--cor0);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover {
+    color: var(--cor2);
+}
+#fundo {
+    background-color: var(--cor2);
+    border: 0px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+img {
+    width: 100%;
+}
+aside {
+    background-color: var(--cor4);
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.479);
+}
+aside > ul {
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+aside > h3 {
+    background-color: var(--cor1);
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+footer a:hover {
+    color: var(--cor2);
+    text-decoration: underline;
+}
+strong {
+    color: var(--cor1);
+    font-weight: bold;
+}
+.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+nav > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor1);
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+.video {
+    background-color: var(--cor3);
+    margin: 0px -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+>>>>>>> 605bbe6833213438567e2e8bbf21d9c18984235f
 }
