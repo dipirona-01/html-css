@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            margin: 5px;
+        }
+    </style>
 </head>
 <body>
     <form action="/exercicios/ex027/cadastro.php" method="get" autocomplete="on">Cadastro
@@ -11,13 +16,22 @@
     <fieldset>
         <legend>Dados Pessoais</legend>
         <label for="inome">Nome:</label>
-        <input type="text" name="nome" id="inome"><br>
+        <input type="text" name="nome" id="inome" required><br>
         <label for="icpf">CPF:</label>
-        <input type="text" name="cpf" id="icpf"><br>
+        <input type="text" name="cpf" id="icpf" required><br>
         <label for="iemail">Email:</label>
-        <input type="email" name="email" id="iemail"><br>
+        <input type="email" name="email" id="iemail" required><br>
         <label for="itelefone">Telefone:</label>
-        <input type="tel" name="telefone" id="itelefone"><br>
+        <input type="tel" name="telefone" id="itelefone" required><br>
     </fieldset>
+    <fieldset>
+        <legend>Avaliação</legend>
+        <label for="inivel">Satisfação:</label>
+        <input type="range" name="nivel" id="inivel" min="0" max="10"><br>
+    </fieldset>
+    <p>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+    </p>
 </body>
 </html>
