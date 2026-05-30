@@ -13,8 +13,21 @@ header {
 header h1 {
     text-align: center;
 }
-menu {
+#burger {
+    background-color: rgb(71, 71, 71);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+#burger:hover {
+    background-color: rgb(58, 58, 58);
+    color: rgb(0, 0, 0);
+    
+}
+menu {
+    display: none;
 }
 menu > ul {
     list-style-type: none;
