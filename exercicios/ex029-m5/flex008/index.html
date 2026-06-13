@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLex box</title>
+    <style>
+        div.conteiner {
+            background-color: aqua;
+            display: flex;
+            height: 400px;
+            align-items: flex-start;
+        }
+        div.item {
+            background-color: aquamarine;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+        #i1 {
+          align-self: center;
+        }
+        #i2{
+            align-self: flex-end;  
+        }
+        #i3{
+           align-self: stretch;
+        }
+        #i4{
+            align-self: auto;
+        }
+        #i5{
+            align-self: flex-start ;
+        }
+        #i6{
+           align-self: stretch;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="i1">a</div>
+        <div class="item" id="i2">b</div>
+        <div class="item" id="i3">c</div>
+        <div class="item" id="i4">d</div>
+        <div class="item" id="i5">e</div>
+        <div class="item" id="i6">f</div>
+    </div>
+</body>
+</html>
