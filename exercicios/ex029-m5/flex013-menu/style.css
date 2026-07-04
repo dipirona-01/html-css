@@ -1,0 +1,38 @@
+        @charset "UTF-8";
+        
+        *{
+            margin: 0;
+            padding: 0;     
+        }
+        header{
+            background-color: gray;
+            color: white;
+            padding: 10px;
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header > h1{
+            border: 1px black;
+            flex: 0 0 200px;
+        }
+        .conteiner{
+            background-color: gray;
+            border: 1px black;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+        }
+        .cx1{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .cx1:hover {
+            background-color: lightgray;
+        }
