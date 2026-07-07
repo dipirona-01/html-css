@@ -3,18 +3,24 @@
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    font-size: 1em;
+    line-height: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-header{
-    padding: 15px;
+header, .Normal{
+    padding: 20px;
     background-color: lightgray;
 }
-.fundo{
-    background-color: gray;
-    width: 100vw;
-    padding: 15px;
+.flex-content{
+    padding: 20px;
+    background-color: lightblue;
 }
-.fundo h2{
-    padding-bottom: 20px;
+p, h1, h2{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+img{
+    width: 50%;
 }
